@@ -1,0 +1,25 @@
+[project]
+name = "solVsEth"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Dist Bit", email = "adp01@pm.me"},
+]
+dependencies = [
+    "python-dotenv>=1.0.1,<2.0.0",
+    "loguru>=0.7.2,<0.8.0",
+    "PySnooper>=1.2.0,<2.0.0",
+]
+requires-python = ">=3.12"
+license = {text = "UNLICENCE"}
+readme = "README.md"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
