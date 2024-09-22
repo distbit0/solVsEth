@@ -9,6 +9,15 @@ dependencies = [
     "python-dotenv>=1.0.1,<2.0.0",
     "loguru>=0.7.2,<0.8.0",
     "PySnooper>=1.2.0,<2.0.0",
+    "requests>=2.32.3",
+    "pandas>=2.2.3",
+    "matplotlib>=3.9.2",
+    "tqdm>=4.66.5",
+    "aiohttp>=3.10.5",
+    "asyncio>=3.4.3",
+    "beautifulsoup4>=4.12.3",
+    "lxml>=5.3.0",
+    "plotly>=5.24.1",
 ]
 requires-python = ">=3.12"
 license = {text = "UNLICENCE"}

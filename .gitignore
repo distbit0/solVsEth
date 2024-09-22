@@ -90,3 +90,8 @@ profile_default/
 # output and storage
 output/
 data/
+
+
+
+*.json
+*.db
